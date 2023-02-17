@@ -21,7 +21,14 @@
     Surname <form:input path="surname"/>
     <form:errors path="surname"/>
     <br><br>
+    phone: <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
+    <br><br>
+    email: <form:input path="email"/>
+    <form:errors path="email"/>
+    <br><br>
     Salary <form:input path="salary"/>
+    <form:errors path="salary"/>
     <br><br>
     Department <for:select path="department">
     <form:options items="${employee.departments}"/>

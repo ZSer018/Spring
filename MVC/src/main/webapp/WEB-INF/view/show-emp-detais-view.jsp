@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -14,7 +15,9 @@
 
 Your name: ${employee.name}<br>
 Your surname: ${employee.surname}<br>
-Your surname: ${employee.salary}<br>
+Your phone: ${employee.phoneNumber}<br>
+Yore E-Mail ${employee.email}<br>
+Your salary: ${employee.salary}<br>
 Youre department:  ${employee.department}<br>
 Youre car: ${employee.carBrand}<br>
 

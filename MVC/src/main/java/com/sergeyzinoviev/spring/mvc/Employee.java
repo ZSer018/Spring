@@ -1,9 +1,7 @@
 package com.sergeyzinoviev.spring.mvc;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import com.sergeyzinoviev.spring.mvc.validation.CheckEMail;
+import jakarta.validation.constraints.*;
 
 import java.util.*;
 
@@ -12,6 +10,8 @@ public class Employee {
     private String name;
     @NotEmpty
     private String surname;
+    @Min(value = 500, message = "must be > 499")
+    @Max(value = 1000, message = "must be < 1001")
     private int salary;
     private String department;
     private Map<String, String> departments;
@@ -44,6 +44,13 @@ public class Employee {
         this.languageList = languageList;
     }
 
+    @Pattern(regexp = "\\+\\d-\\d{3}-\\d{3}-\\d{2}-\\d{2}", message = "not valid phone number. Please use this pattern: +X-XXX-XXX-XX-XX")
+    private String phoneNumber;
+
+    @CheckEMail(value = "abc.com", message = "ololo ololo")
+    private String email;
+
+
     public Employee() {
         departments = new HashMap<>();
         departments.put("Inf tec","IT");
@@ -62,21 +69,21 @@ public class Employee {
         languageList.add("Ger");
    }
 
-
-    public static void main(String[] args) {
-        Employee employee= new Employee();
-        var temp  = employee.getLanguageList();
-        temp.add("1");
-        temp.add("2");
-
-        employee.languageList.remove(0);
-
-        System.out.println("-------copy-------");
-        temp.forEach(System.out::println);
-        System.out.println("-------orign-------");
-        employee.languageList.forEach(System.out::println);
+    public String getEmail() {
+        return email;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 
     public String getCarBrand() {
         return carBrand;
