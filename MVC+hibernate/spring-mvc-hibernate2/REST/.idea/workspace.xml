@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="REST:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf4a2829-5e55-4504-9a0f-b49027bb4f7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/configuration/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/configuration/MyWebInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/controller/MyRESTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/exception/IncorrectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/exception/NoEmployeeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zinoviev/sergey/rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/configuration/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/configuration/MyWebInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/controller/MyRESTController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/dao/EmployeeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/dao/EmployeeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/classes/com/zinoviev/sergey/rest/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/aspectjweaver-1.9.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/byte-buddy-1.10.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/hibernate-core-5.4.24.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/hibernate-entitymanager-5.4.22.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jackson-annotations-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jackson-core-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jackson-databind-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.activation-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.el-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.servlet-api-5.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jakarta.xml.bind-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/micrometer-commons-1.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/micrometer-observation-1.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-aop-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-beans-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-context-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-core-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-expression-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-jcl-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-jdbc-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-orm-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-tx-5.2.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-web-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/spring-webmvc-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/MVC/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/configuration/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/configuration/MyWebInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/controller/MyRESTController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/dao/EmployeeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/dao/EmployeeDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zinoviev/sergey/rest/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RESTClient/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-hibernate/spring-mvc-hibernate/target/MVC/WEB-INF/classes/com/zinoviev/sergey/mvc_hibernate_aop/bank/DBEntityCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-hibernate/spring-mvc-hibernate/target/classes/com/zinoviev/sergey/mvc_hibernate_aop/bank/DBEntityCreator.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MB55hW9TROXXqb733FJTgl01rX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;50780f47f6839d47d60bc4555ee00c3f&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zinoviev.sergey.rest.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="REST:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/REST_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ba589fbc-cefc-4340-bf5d-6a17d94e3feb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61805" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="REST:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf4a2829-5e55-4504-9a0f-b49027bb4f7a" name="Changes" comment="" />
+      <created>1677227953468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677227953468</updated>
+      <workItem from="1677227954879" duration="9986000" />
+      <workItem from="1677414069669" duration="11487000" />
+      <workItem from="1677476932984" duration="599000" />
+      <workItem from="1677564588831" duration="4074000" />
+      <workItem from="1677592534305" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
